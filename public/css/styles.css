@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p {
+  line-height: 2;
+  font-size: 1rem;
+}
+
+hr {
+  border: dotted #FF87CA 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color:#66BFBF;
+}
+.container-fluid {
+  padding-top: 70px;
+padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    /* letter-spacing: 5px; */
+}
+.navbar-nav  li a:hover {
+    color: #FFBCD1 !important;
+}
+
+.search {
+text-align: justify;
+}
+
+.top-container {
+  background-color: #FFC4E1;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+
+.contact {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.about-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.portfolio {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.card {
+
+}
+
+.computer-img {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.main-image {
+  border-radius: 100%;
+    background-image: url("images/Chloe.jpg");
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.profile {
+  margin: auto 300px auto 300px;
+  text-align: right;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.btn {
+  background: #fad5fa;
+  background-image: linear-gradient(#fad5fa, #ffc4e1);
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(#3cb0fd, #3498db);
+  text-decoration: none;
+}
+.footer-padding {
+	padding-top: 30px;
+	background-color: #FFC4E1;
+}
+
+.footer-link {
+  /* border-top: 50px; */
+}
+
+.footer {
+  text-align: center;
+  background-color: #FFC4E1;
+}
+
+.footer p {
+	margin-top: 25px;
+  margin-bottom: 0px;
+	font-size: 12px;
+	color: #fff;
+}
